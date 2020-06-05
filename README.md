@@ -51,7 +51,7 @@ I used the numpy library to calculate summary statistics of the traffic signs da
 
 Here is an exploratory visualization of the data set. It pulls in a random set of eight images and labels them with the correct names in reference with the csv file to their respective id's.<br>
 <p align="center">
-<img src="./docs/1.2.png">
+<img src="./docs/1.2.png" width="438">
 </p>
 
 It looks like a fair data set. Some of the images look crisp and clear, while other images look somewhat distorted. Some are blured, some are too dark, some were taken from an angle. However, since we will be implementing a convolutional neural network, these issues will be minimized during training.
@@ -60,13 +60,13 @@ It looks like a fair data set. Some of the images look crisp and clear, while ot
 
 Let's look into how many samples each class has<br>
 <p align="center">
-<img src="./docs/1.3.1.png">
+<img src="./docs/1.3.1.png" width="438">
 </p>
 <p align="center">
-<img src="./docs/1.3.2.png">
+<img src="./docs/1.3.2.png" width="438">
 </p>
 <p align="center">
-<img src="./docs/1.3.3.png">
+<img src="./docs/1.3.3.png" width="438">
 </p>
 
 We can see how some of the traffic signs are under-represented. Some classes have a factor of 100 samples as many samples as other classes. This couple present a problem in which classes that have fewer samples have a lower chance of accurately generalizing on the testing data.
@@ -152,10 +152,10 @@ I have my explainations of the effect of the drop out layer after I've seen some
 
 The final accuracy in validation set is around 0.941.<br>
 <p align="center">
-<img src="./docs/2.4.1.png">
+<img src="./docs/2.4.1.png" width="438">
 </p>
 <p align="center">
-<img src="./docs/2.4.2.png">
+<img src="./docs/2.4.2.png" width="438">
 </p>
 
 ## Test a Model on New Images
