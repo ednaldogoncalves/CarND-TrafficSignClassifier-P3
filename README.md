@@ -90,17 +90,17 @@ Here is a look at the normalized images. Which should look identical, but for so
 
 I increased the train dataset size to 89860 and also merged and then remade another validation dataset. Now no image class in the train set has less then 1000 images.<br>
 <p align="center">
-<img src="./docs/2.1.2.png">
+<img src="./docs/2.1.2.png" width="438">
 </p>
 
 Test set was left alone.<br>
 <p align="center">
-<img src="./docs/2.1.3.png">
+<img src="./docs/2.1.3.png" width="438">
 </p>
 
 Validation set gained 20% of the original total mentioned above. I did this using scikit learns train test split method.<br>
 <p align="center">
-<img src="./docs/2.1.4.png">
+<img src="./docs/2.1.4.png" width="438">
 </p>
 
 ### Modelarchitecture
