@@ -60,13 +60,13 @@ It looks like a fair data set. Some of the images look crisp and clear, while ot
 
 Let's look into how many samples each class has<br>
 <p align="center">
-<img src="./docs/1.3.1.png" width="438">
+<img src="./docs/1.3.1.png">
 </p>
 <p align="center">
-<img src="./docs/1.3.2.png" width="438">
+<img src="./docs/1.3.2.png">
 </p>
 <p align="center">
-<img src="./docs/1.3.3.png" width="438">
+<img src="./docs/1.3.3.png">
 </p>
 
 We can see how some of the traffic signs are under-represented. Some classes have a factor of 100 samples as many samples as other classes. This couple present a problem in which classes that have fewer samples have a lower chance of accurately generalizing on the testing data.
