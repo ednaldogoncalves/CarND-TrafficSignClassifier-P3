@@ -80,27 +80,27 @@ It look like the samples were split into train/test uniformly randomly as we can
 I converted the images to grayscale because in the technical paper it outlined several steps they used to achieve 93%. I assume this works better because the excess information only adds extra confusion into the learning process. After the grayscale I also normalized the image data because I've read it helps in speed of training and performance because of things like resources. Also added additional images to the datasets through randomized modifications.
 Here is an example of a traffic sign images that were randomly selected.<br>
 <p align="center">
-<img src="./docs/2.1.png">
+<img src="./docs/2.1.png" width="438">
 </p>
 
 Here is a look at the normalized images. Which should look identical, but for some small random alterations such as opencv affine and rotation.<br>
 <p align="center">
-<img src="./docs/2.1.1.png">
+<img src="./docs/2.1.1.png" width="438">
 </p>
 
 I increased the train dataset size to 89860 and also merged and then remade another validation dataset. Now no image class in the train set has less then 1000 images.<br>
 <p align="center">
-<img src="./docs/2.1.2.png" width="438">
+<img src="./docs/2.1.2.png">
 </p>
 
 Test set was left alone.<br>
 <p align="center">
-<img src="./docs/2.1.3.png" width="438">
+<img src="./docs/2.1.3.png">
 </p>
 
 Validation set gained 20% of the original total mentioned above. I did this using scikit learns train test split method.<br>
 <p align="center">
-<img src="./docs/2.1.4.png" width="438">
+<img src="./docs/2.1.4.png">
 </p>
 
 ### Modelarchitecture
