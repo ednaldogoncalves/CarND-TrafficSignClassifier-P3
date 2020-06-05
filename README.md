@@ -152,10 +152,10 @@ I have my explainations of the effect of the drop out layer after I've seen some
 
 The final accuracy in validation set is around 0.941.<br>
 <p align="center">
-<img src="./docs/2.4.1.png" width="438">
+<img src="./docs/2.4.1.png">
 </p>
 <p align="center">
-<img src="./docs/2.4.2.png" width="438">
+<img src="./docs/2.4.2.png">
 </p>
 
 ## Test a Model on New Images
