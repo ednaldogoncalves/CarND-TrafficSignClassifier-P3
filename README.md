@@ -1,6 +1,6 @@
-# CarND-TrafficSignClassifier-P3
+# CarND - Traffic Sign Classifier - Project 3
 Udacity Self-Driving Car Engineer Nanodegree Program <br>[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
+<br>
 <p align="center">
 <img src="./docs/Sign.jpg">
 </p>
